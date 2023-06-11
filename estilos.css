@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('fondoo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+header{
+    width: 100%;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 30px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+h1{
+    text-align: center;
+     font-family: serif;
+       font-size:40px;
+       font-style: cursive;
+        font-weight: bold;
+         font-variant: normal;
+           color:floralwhite;
+              letter-spacing: 1pt;
+                text-align: center;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+h2{
+    text-align:justify;
+     font-family: serif;
+       font-size: 23px;
+       font-style: cursive;
+        font-weight: bold;
+         font-variant: normal;
+           color: darkgoldenrod;
+              letter-spacing: 1pt;
+                text-align: center;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: capitalize;
+}
+
+.introduccion{
+     background-image: url('fondo3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+
+.introduccion h3{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+
+.presentacion {
+    background-image: url('fondo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+.presentacion h1{
+    text-align:normal;
+     font-family: cursive;
+       font-size: 40px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.presentacion h1{
+animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.presentacion h2{
+ text-align:normal;
+     font-family: cursive;
+       font-size: 35px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;   
+}
+.presentacion h2{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.presentacion h3{
+     text-align:normal;
+     font-family: cursive;
+       font-size:35px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.presentacion h3{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.php{
+     background-image: url('fondoophp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+.php h2{
+    text-align:normal;
+     font-family: cursive;
+       font-size: 30px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: midnightblue;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align:normal;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.php h3{
+ text-align:justify;
+     font-family: cursive;
+       font-size: 23px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: black;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: normal;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.php a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+
+.javascript{
+     background-image: url('javascript.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+
+.javascript h1{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:red;
+             letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: normal;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.javascript h3{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: normal;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.javascript a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+
+.javascript b{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:white;
+              letter-spacing: 1pt;
+}
+.java{
+     background-image: url('java.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+
+.java h3{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color: white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.java a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+.java b{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:white;
+              letter-spacing: 1pt;
+}
+.c{
+   background-image: url('fondoc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+.c h1{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 40px;
+       font-style: italic;
+        font-weight: normal;
+         font-variant: normal;
+           color:darkgoldenrod;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.c h3{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:floralwhite;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.c a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+.cmm{
+ background-image: url('fondoc++.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+.cmm h1{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 40px;
+       font-style: italic;
+        font-weight: normal;
+         font-variant: normal;
+           color:darkgoldenrod;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.cmm h3{
+     text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:darkcyan;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.cmm b{
+   text-align:normal;
+     font-family: cursive;
+       font-size: 30px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:darkmagenta;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.cmm a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+.phyton{
+   background-image: url('fondophyton.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+
+.phyton h1{
+  text-align:normal;
+     font-family: cursive;
+       font-size: 40px;
+       font-style: italic;
+        font-weight: normal;
+         font-variant: normal;
+           color:darkgoldenrod;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;   
+}
+.phyton h3{
+    text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;
+}
+.phyton b{
+   text-align:normal;
+     font-family: cursive;
+       font-size: 30px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:white;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.phyton a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+.swift{
+     background-image: url('swift.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #313D52;
+}
+.swift h1{
+   text-align:normal;
+     font-family: cursive;
+       font-size: 30px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:floralwhite;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align: middle;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.swift h3{
+   text-align:normal;
+     font-family: cursive;
+       font-size: 25px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:floralwhite;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align:normal;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.swift b{
+   text-align:normal;
+     font-family: cursive;
+       font-size: 20px;
+       font-style: monospace;
+        font-weight: normal;
+         font-variant: normal;
+           color:floralwhite;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align:normal;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.swift a{
+  color: blanchedalmond;
+  font-family: cursive;
+  font-size: 15px;
+  font-style: cursive;
+  text-align: center;
+}
+.importancia h3{
+  text-align:normal;
+     font-family: cursive;
+       font-size: 25px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:hotpink;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align:normal;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
+.importancia h1{
+  text-align:normal;
+     font-family: cursive;
+       font-size: 25px;
+       font-style: cursive;
+        font-weight: normal;
+         font-variant: normal;
+           color:blanchedalmond;
+              letter-spacing: 1pt;
+                text-align: normal;
+                  vertical-align:normal;
+                   word-spacing: normal;
+                    text-transform: normal;  
+}
